@@ -1,0 +1,18 @@
+{
+  "name": "vs-webhook-sql",
+  "version": "1.0.0",
+  "description": "VanillaSoft webhook listener that forwards data to MySQL database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["vanillasoft", "webhook", "mysql", "crm"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1"
+  }
+} 
